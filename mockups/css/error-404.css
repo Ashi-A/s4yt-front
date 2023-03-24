@@ -95,12 +95,42 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	
+	body {
+        background-image: url('./../assets/bg.png');
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+	
 	.error-section {
-	background-repeat: no-repeat;
-	background-image: url('./../assets/register_form.png');
-	background-size: 100% 100%;
-	margin-bottom: 10%;
-	height: 75vh;
-	position: relative;
+		background-repeat: no-repeat;
+		background-image: url('./../assets/register_form.png');
+		background-size: 100% 100%;
+		margin-bottom: 20%;
+		height: 75vh;
+		position: relative;
+	}
+	
+	.image	{
+		width: 30%;
+		margin-left: 20%;
+		margin-top: 1rem;
+	}
+	
+	.error-title {	
+	font-size: 9em;
+	margin-top: 4rem;
+	font-weight: normal;
+	text-align: right;
+	}
+
+	.error-subtitle {
+		font-size: 2em;
+		font-weight: normal;
+	
+	}
 	
 }
