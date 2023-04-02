@@ -42,6 +42,10 @@
 	left: 75px;
 }
 
+#feather, #coin_stack, #single_coin {
+	display: none;
+}
+
 /* Smartphone landscape and tablet portrait*/
 @media only screen and (min-width: 600px) {
 	
